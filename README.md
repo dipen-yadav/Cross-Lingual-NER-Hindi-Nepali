@@ -6,10 +6,10 @@ This repository hosts the code and resources for conducting cross-lingual transf
 
 The core objective of this project is to explore the potential of cross-lingual transfer learning to improve NER performance in a resource-limited language like Nepali by leveraging models pre-trained on a resource-abundant language such as Hindi. The experiments were conducted using the following pre-trained models:
 
-- **BERT Multilingual**
-- **DistilBERT Multilingual**
-- **RemBERT**
-- **MuRIL**
+- **[BERT Multilingual](https://huggingface.co/google-bert/bert-base-multilingual-cased)**
+- **[DistilBERT Multilingual](https://huggingface.co/distilbert/distilbert-base-multilingual-cased)**
+- **[RemBERT](https://huggingface.co/google/rembert)**
+- **[MuRIL](https://huggingface.co/google/muril-base-cased)**
 
 These models were fine-tuned and evaluated on NER tasks using datasets specific to both Hindi and Nepali. The experiments involved monolingual evaluations to gauge performance within each language and cross-lingual evaluations to assess the models' ability to transfer linguistic knowledge across languages.
 
