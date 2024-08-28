@@ -15,7 +15,7 @@ These models were fine-tuned and evaluated on NER tasks using datasets specific 
 
 ## Repository Structure
 
-- `crosslingual_ner_hindi_nepali.py`: The main script for conducting the experiments and analyzing the results.
+- `crosslingual_ner_hindi_nepali.ipynb`: The main script for conducting the experiments and analyzing the results.
 - `trainer.py`: Script dedicated to training the models on the NER datasets, including functions for fine-tuning and evaluation.
 - `requirements.txt`: A list of the Python packages required to run the experiments.
 
