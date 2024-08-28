@@ -1,10 +1,10 @@
 # Cross-Lingual Named Entity Recognition between Hindi and Nepali
 
-This repository hosts the code and resources for conducting cross-lingual transfer learning experiments focused on Named Entity Recognition (NER) between Hindi and Nepali. This work forms part of a research study aimed at evaluating the effectiveness of pre-trained multilingual BERT models in both monolingual and cross-lingual contexts, with a particular focus on the linguistic similarities and differences between Hindi and Nepali.
+This repository hosts the code and resources for conducting cross-lingual transfer learning experiments focused on Named Entity Recognition (NER) between Hindi and Nepali. This work forms part of a research study aimed at evaluating the effectiveness of pre-trained multilingual BERT models in monolingual and cross-lingual contexts, focusing on the linguistic similarities and differences between Hindi and Nepali.
 
 ## Overview
 
-The core objective of this project is to explore the potential of cross-lingual transfer learning to improve NER performance in a resource-limited language like Nepali by leveraging models pre-trained on a resource-abundant language such as Hindi. The experiments were conducted using the following pre-trained models:
+The core objective of this project is to explore the potential of cross-lingual transfer learning to improve NER performance in a resource-limited language like Nepali by leveraging models pre-trained on a relatively resource-abundant language such as Hindi. The experiments were conducted using the following pre-trained models:
 
 - **[BERT Multilingual](https://huggingface.co/google-bert/bert-base-multilingual-cased)**
 - **[DistilBERT Multilingual](https://huggingface.co/distilbert/distilbert-base-multilingual-cased)**
@@ -21,7 +21,7 @@ These models were fine-tuned and evaluated on NER tasks using datasets specific 
 
 ## Installation
 
-To set up the environment, ensure that Python 3.8 or later is installed. The required packages can be installed by executing:
+To set up the environment, install Python 3.8 or later. The required packages can be installed by executing:
 
 ```bash
 pip install -r requirements.txt
@@ -39,7 +39,7 @@ The primary dependencies include:
 
 2. **Training**: To train the models on the Hindi and Nepali datasets, use the `trainer.py` script. This script includes functions for fine-tuning the pre-trained BERT models on the NER tasks. You can adjust hyperparameters such as learning rate, batch size, and number of epochs within the script to suit your specific requirements.
 
-3. **Evaluation**: Once training is complete, the models will be evaluated on both monolingual and cross-lingual NER tasks. The evaluation results, including precision, recall, and F1 scores, will be logged using TensorBoard. These metrics can be accessed and visualized to understand the performance of the models across different tasks.
+3. **Evaluation**: Once training is complete, the models will be evaluated on monolingual and cross-lingual NER tasks. The evaluation results, including precision, recall, and F1 scores, will be logged using TensorBoard. These metrics can be accessed and visualized to understand the models' performance across different tasks.
 <!--
 If you use this repository in your research, please cite it using the following reference:
 ## Citation
