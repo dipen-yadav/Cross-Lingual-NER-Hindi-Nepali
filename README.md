@@ -15,7 +15,7 @@ These models were fine-tuned and evaluated on NER tasks using datasets specific 
 
 ## Repository Structure
 
-- `crosslingual_ner_hindi_nepali.ipynb`: The main script for conducting the experiments and analyzing the results.
+- `crosslingual_ner_hindi_nepali.ipynb`: The main notebook for conducting the experiments and analyzing the results.
 - `trainer.py`: Script dedicated to training the models on the NER datasets, including functions for fine-tuning and evaluation.
 - `requirements.txt`: A list of the Python packages required to run the experiments.
 
@@ -35,7 +35,6 @@ The primary dependencies include:
 - **Optuna** - for hyperparameter optimization to fine-tune model performance.
 
 ## Running the Experiments
-The experiments can be run sequentially as in the Jupyter notebook `crosslingual-ner-hindi-nepali.ipynb`.
 1. **Prepare the datasets**: Before running the experiments, ensure that the Hindi and Nepali NER datasets are prepared and preprocessed in the correct format. The datasets should follow the CoNLL-2003 standard, with entities labeled appropriately. Place the datasets in the designated directories within the repository.
 
 2. **Training**: To train the models on the Hindi and Nepali datasets, use the `trainer.py` script. This script includes functions for fine-tuning the pre-trained BERT models on the NER tasks. You can adjust hyperparameters such as learning rate, batch size, and number of epochs within the script to suit your specific requirements.
